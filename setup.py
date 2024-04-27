@@ -21,7 +21,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     packages=find_packages(),
-    install_requires=['rdkit-pypi'],
+    install_requires=['rdkit'], # Openbabel should be installed via conda
     python_requires=">=3.6",
     zip_safe=False
 )
